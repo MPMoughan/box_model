@@ -1,20 +1,57 @@
+* {
+  background-color: #d8d6cd;
+}
+
 div {
   /* properties go here */
 }
 
-h2{
+.divThree {
+  margin: 5px;
+  width: 100%;
+  border: 1px solid blue;
+  text-align: center;
+}
+
+/* center the paragraph within the .divThree */
+.divThree p {
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* every paragraph within a div with a class of "practice" */
+.practice p {
+  margin-right: 5px;
+  width: 425px;
+  border: 1px solid red;
+  float: left
+}
+
+h2 {
   text-decoration: underline;
+  color: purple;
 }
 
 p {
   border-style: dotted;
   border-width: 2px;
   padding: 20px;
+  background-color: #fff4e6;
 }
 
+
+
+/*total width of .paragraphOne = 3px + 5px + 1408px + 5px + 3px = 1424 */
+/* left border = 3px, left padding =5px, content width = 1408px, right padding = 5 px, right border = 3px*/
 .paragraphOne {
   border-style: solid;
   border-width: 3px;
   border-color: green;
   padding: 5px 5px;
+  font-style: bold;
+  font-family: verdana;
+
 }
+
