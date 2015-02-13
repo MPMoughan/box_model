@@ -26,7 +26,7 @@ div {
   margin-right: 5px;
   width: 425px;
   border: 1px solid red;
-  float: left
+  float: left;
 }
 
 h2 {
@@ -52,6 +52,22 @@ p {
   padding: 5px 5px;
   font-style: bold;
   font-family: verdana;
+}
 
+.clearfix {
+  overflow: auto;
+}
+
+.image {
+  width: 50%;
+  border-style: outset;
+  border-width: 5px;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
 }
 
