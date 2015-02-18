@@ -39,6 +39,7 @@ p {
   border-width: 2px;
   padding: 20px;
   background-color: #fff4e6;
+  height: 200px;
 }
 
 
@@ -58,6 +59,10 @@ p {
   overflow: auto;
 }
 
+.imageOne {
+  float: left;
+}
+
 .image {
   width: 50%;
   border-style: outset;
@@ -69,5 +74,12 @@ p {
   text-align: center;
   padding: 10px;
   margin: 10px;
+}
+
+.relative {
+  position: relative;
+  left: 100px;
+  top: 50px;
+  clear: both;
 }
 
